@@ -20,6 +20,19 @@ to ROS 2 via **UART**, enabling:
 - Logging, visualization, and data analysis
 
 
+## ✨ Features
+
+- Bidirectional UART ↔ ROS 2 communication
+- Real-time telemetry (100 Hz)
+- Remote setpoint commands
+- Online control metrics (IAE, ISE, ITAE, RMSE, overshoot, settling time)
+- rosbag logging support
+- Embedded + middleware architecture
+- Designed for control engineering education and experimentation
+
+
+
+
 # 📂 Contents
 
 ### ROS 2 (middleware layer)
@@ -72,6 +85,16 @@ Where:
 - 8N1
 
 Firmware is compiled with **Arduino/Teensyduino** and runs independently from ROS.
+
+
+# 🎯 Use Cases
+
+- Control systems laboratories
+- Embedded–ROS integration
+- Controller tuning and identification
+- Digital twin experimentation
+- Teaching automatic control
+
 
 # 📡 ROS Topics
 
