@@ -9,8 +9,9 @@ and receiving setpoint commands.
 
 ## 🏗️ Architecture
 
-![Architecture](docs/architecture.svg)
-
+<p align="center">
+<img src="https://github.com/user-attachments/assets/303aca80-6a6e-42b3-863a-67e5829025dd" alt="Architecture" width="700">
+</p>
 
 ## 📡 Topics
 
