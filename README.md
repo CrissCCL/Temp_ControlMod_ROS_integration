@@ -58,6 +58,24 @@ to ROS 2 via **UART**, enabling:
 <img src="https://github.com/user-attachments/assets/303aca80-6a6e-42b3-863a-67e5829025dd" alt="Architecture" width="700">
 </p>
 
+
+## 🔧 Hardware Setup
+
+<p align="center">
+<img src="https://github.com/user-attachments/assets/8ebc8589-6ff8-459e-b60b-cbca748937f4" width="750">
+</p>
+
+Physical connections:
+
+- Teensy → temperature sensor + actuator (heater/fan)
+- UART (Serial1) → Raspberry Pi
+- Raspberry Pi → ROS 2 nodes (bridge + metrics + visualization)
+
+
+
+
+
+
 # 🔌 Embedded Firmware (Teensy)
 
 The Teensy executes the **real-time PI temperature control loop** and communicates
