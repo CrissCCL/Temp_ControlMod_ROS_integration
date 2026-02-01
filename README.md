@@ -183,6 +183,8 @@ source install/setup.bash
 
 ### Option A — Launch (recommended)
 ```bash
+source /opt/ros/humble/setup.bash
+source ~/ros2_ws/install/setup.bash
 ros2 launch uart_ros_bridge system.launch.py
 ```
 
@@ -213,9 +215,9 @@ Plot:
 rqt_plot /temp /ref /u
 ```
 
-# 🚀 Quick Test (5-minute demo)
+## 🚀 Quick Test (5-minute demo)
 
-### 1) Launch
+### 1️⃣ Launch system
 
 ```bash
 source /opt/ros/humble/setup.bash
@@ -223,13 +225,13 @@ source ~/ros2_ws/install/setup.bash
 ros2 launch uart_ros_bridge system.launch.py
 ```
 
-### 2) Check telemetry (raw UART frame)
+### 2️⃣ Check telemetry (raw UART frame)
 
 ```bash
 ros2 topic echo /temp_u_ref
 ```
 
-### 3) Check individual signals
+### 3️⃣ Check individual signals
 
 ```bash
 ros2 topic echo /temp
@@ -237,12 +239,12 @@ ros2 topic echo /u
 ros2 topic echo /ref
 ```
 
-### 4) Change setpoint (one-shot)
+### 4️⃣ Change setpoint (one-shot)
 
 ```bash
 ros2 topic pub --once /ref_cmd std_msgs/msg/Float32 "{data: 40.0}"
 ```
-### 5) Plot
+### 5️⃣ Visualize response
 
 ```bash
 source /opt/ros/humble/setup.bash
@@ -250,11 +252,11 @@ source ~/ros2_ws/install/setup.bash
 rqt
 ```
 
-Then open Plugins → Visualization → Plot and add:
+You should observe:
 
-- `/temp`
-- `/ref`
-- `/u`
+- temperature tracking the reference
+- control effort reacting to the error
+- stable closed-loop behavior
 
 ## 📁 Utilities
 
