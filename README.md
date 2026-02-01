@@ -1,5 +1,10 @@
 # 🔥 Temp Control Module — ROS 2 Humble Integration (UART Bridge)
 
+![ROS2](https://img.shields.io/badge/ROS2-Humble-blue)
+![Python](https://img.shields.io/badge/Python-3.x-green)
+![Platform](https://img.shields.io/badge/Platform-Raspberry%20Pi-orange)
+![License](https://img.shields.io/badge/License-MIT-lightgrey)
+
 This repository provides the **ROS 2 Humble integration layer** for the main
 temperature control platform:
 
