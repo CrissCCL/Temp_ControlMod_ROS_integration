@@ -62,7 +62,7 @@ to ROS 2 via **UART**, enabling:
 ## 🔧 Hardware Setup
 
 <p align="center">
-<img src="https://github.com/user-attachments/assets/8ebc8589-6ff8-459e-b60b-cbca748937f4" width="750">
+<img src="https://github.com/user-attachments/assets/8ebc8589-6ff8-459e-b60b-cbca748937f4" width="500">
 </p>
 
 Physical connections:
